@@ -1,9 +1,4 @@
 
-/*
- * 중앙대학교 대학원, 전자상거래 및 인터넷응용 연구실, 김준호
- * https://www.facebook.com/taki0112
- * taki0112@ec.cse.cau.ac.kr
- */
 
 import java.io.DataInput;
 import java.io.DataInputStream;
