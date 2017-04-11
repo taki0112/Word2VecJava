@@ -17,3 +17,8 @@ Input.txt 내용은 다음과 같습니다.
 김준호 전문 연구 요원 채용 관심
 ```
 
+## 주요 변수 설명
+* See Line 894 (public static class Builder)
+```bash
+1. cbow = false
+	cbow모델과 skip-gram모델중 어떤 모델로 학습할 것인지 선택하는것입니다.
