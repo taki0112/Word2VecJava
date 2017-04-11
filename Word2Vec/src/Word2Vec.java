@@ -1080,6 +1080,6 @@ public class Word2Vec {
 		}
 		Word2Vec word2vec = new Word2Vec(b);
 		word2vec.trainModel();
-		//System.exit(0);
+		System.exit(0);
 	}
 }
