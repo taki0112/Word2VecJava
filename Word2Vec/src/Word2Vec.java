@@ -49,7 +49,7 @@ public class Word2Vec {
 	 */
 	
 	
-	private static final String output = "Lotto_vec.txt";
+	private static final String output = "Word_vec.txt";
 	
 	class VocabWord implements Comparable<VocabWord> {
 		VocabWord(String word) {
