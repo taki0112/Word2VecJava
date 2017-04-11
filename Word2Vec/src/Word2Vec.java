@@ -897,16 +897,17 @@ public class Word2Vec {
 		private File saveVocabFile = null; 
 		private File readVocabFile = null; 
 		private boolean binary = false;
-		private boolean cbow = false;
+		private boolean cbow = false; // if false, use cbow model.. else, use skip-gram model
 		private boolean noHs = false;
-		private float startingAlpha = 0.025F; //0.025F
+		private float startingAlpha = 0.025F; //0.025F, learning rate
 		private float sample = 0.0F;		
-		private int window = 5; // 특정단어로부터 주변 몇칸을 볼까  5칸이 기본
-		private int negative = 0;
-		private int minCount = 5; // 문서에서 5번 이상 나온것들만 보겠다, 모든 단어를 보려면 0
+		private int window = 5; // Surrounding word
+		private int negative = 0; // If negative = 0, use Hierarchical Softmax ... 
+		// default negative = 5 ~ 10
+		private int minCount = 5; // mincount word, if you use all word then minCount = 0
 		private int numThreads = 1;
 		private int classes = 0;
-		private int layerOneSize = 200; // 벡터크기
+		private int layerOneSize = 200; // vecter size
 		public Builder trainFile(String trainFile) {
 			this.trainFile = new File(trainFile);
 			return this;
