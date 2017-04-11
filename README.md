@@ -21,4 +21,30 @@ Input.txt 내용은 다음과 같습니다.
 * See Line 894 (public static class Builder)
 ```bash
 1. cbow = false
-	cbow모델과 skip-gram모델중 어떤 모델로 학습할 것인지 선택하는것입니다.
+   cbow모델과 skip-gram모델중 어떤 모델로 학습할 것인지 선택하는것입니다.
+   false : use skip gram
+   true : use cbow model
+
+2. startingAlpha = 0.025F
+   learningrate라고 보면됨
+   값이 작으면 작을수록, 학습이 정밀해지지만 학습속도가 느려짐
+
+3. window = 5
+   학습시, 주변단어를 몇개까지 볼것인가
+   기본값은 5이며, 5개의 단어를 본다는 의미
+
+4. negative = 0
+   계산속도의 효율성을 증진시키는데 이용한다고 보면됨
+   방법론은 Hierarchical Softmax와 Negative Sampling이 있음
+   0일경우, Hierarchical Softmax
+   그 이외의 숫자일 경우 Negative Sampling (이때 숫자의 기본값은 5~10)
+
+5. minCount = 5
+   문서에서 최소 몇개이상 나온 단어들만 보겠다 라는 의미
+   모든 단어를 학습시키고 싶다면, minCount = 0
+
+6. layerOneSize = 200
+   단어 벡터의 dimension을 의미
+   기본값은 200
+   dimension이 높을수록, 정밀해지지만 학습속도는 느려짐
+```
