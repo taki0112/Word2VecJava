@@ -1,7 +1,8 @@
 ## Word2VecInJava
 * https://code.google.com/archive/p/word2vec/source/default/source
 * 위 코드를 Java로 바꾸었습니다.
-# 
+
+# 사용방법
 * 소스코드가 들어있는 폴더에 "Input.txt"를 넣습니다.
 Input.txt 내용은 다음과 같습니다.
 한 줄당, 하나의 문서가 들어갑니다.
