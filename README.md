@@ -1,4 +1,4 @@
-# Word2VecInJava
+# Word2Vec In Java
 * https://code.google.com/archive/p/word2vec/source/default/source
 * 위 코드를 Java로 바꾸었습니다.
 
