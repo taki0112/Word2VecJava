@@ -897,7 +897,7 @@ public class Word2Vec {
 		private File saveVocabFile = null; 
 		private File readVocabFile = null; 
 		private boolean binary = false;
-		private boolean cbow = false; // if false, use cbow model.. else, use skip-gram model
+		private boolean cbow = false; // if false, use skip-gram model.. else, use cbow model
 		private boolean noHs = false;
 		private float startingAlpha = 0.025F; //0.025F, learning rate
 		private float sample = 0.0F;		
