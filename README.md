@@ -4,8 +4,7 @@
 
 ## 사용방법
 * 소스코드가 들어있는 폴더에 "Input.txt"를 넣습니다. 
-
-Put "Input.txt" in the folder containing the source code
+** Put "Input.txt" in the folder containing the source code
 Input.txt 내용은 다음과 같습니다. 
 The contents of Input.txt are as follows
 한 줄당, 하나의 문서가 들어갑니다. 
