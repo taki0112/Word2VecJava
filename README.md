@@ -3,10 +3,14 @@
 * 위 코드를 Java로 바꾸었습니다. (Changed the above code to Java)
 
 ## 사용방법
-* 소스코드가 들어있는 폴더에 "Input.txt"를 넣습니다. (Put "Input.txt" in the folder containing the source code)
-Input.txt 내용은 다음과 같습니다. (The contents of Input.txt are as follows)
-한 줄당, 하나의 문서가 들어갑니다. (There is one document per line)
-이때 문서는 모두 전처리가 완료되어야 합니다. (All documents must be preprocessed)
+* 소스코드가 들어있는 폴더에 "Input.txt"를 넣습니다. 
+Put "Input.txt" in the folder containing the source code
+Input.txt 내용은 다음과 같습니다. 
+The contents of Input.txt are as follows
+한 줄당, 하나의 문서가 들어갑니다. 
+There is one document per line
+이때 문서는 모두 전처리가 완료되어야 합니다. 
+All documents must be preprocessed
 * 전처리 : 문서를 형태소분석기를 이용하여, 단어들로 구분지어야함 (Preprocessing: documents should be separated by words using morphemes)
 
 ## Input.txt 내용
