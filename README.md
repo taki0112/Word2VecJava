@@ -14,11 +14,15 @@ Input.txt 내용은 다음과 같습니다. (The contents of Input.txt are as fo
 * 전처리 : 문서를 형태소분석기를 이용하여, 단어들로 구분지어야함 (Preprocessing: documents should be separated by words using morphemes)
 
 ## Input.txt 내용
-* 문서1 : 김준호는 머신러닝과 딥러닝에 관심이 많다. (Document 1 : KimJunho is interested in machine running and deep running)
-* 문서2 : 김준호는 전문연구요원채용에 관심이 많다. (Document 2 : Kim Jun-ho is interested in recruiting professional researchers)
+* 문서1 : 김준호는 머신러닝과 딥러닝에 관심이 많다. (Document 1 : KimJunho is interested in machine learning and deep learning)
+* 문서2 : 김준호는 전문연구요원채용에 관심이 많다. (Document 2 : KimJunho is interested in recruiting professional researchers)
 ```bash
 김준호 머신러닝 딥러닝 관심
 김준호 전문 연구 요원 채용 관심
+```
+```bash
+KimJunho isterested machine learning deep learning
+KimJunho recruiting professional researchers
 ```
 
 ## 주요 변수 설명
