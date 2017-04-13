@@ -12,7 +12,7 @@ Input.txt 내용은 다음과 같습니다. (The contents of Input.txt are as fo
 
 * 전처리 : 문서를 형태소분석기를 이용하여, 단어들로 구분지어야함 (Preprocessing: documents should be separated by words using morphemes)
 
-## Input.txt 내용
+## Contents of "Input.txt"
 * 문서1 : 김준호는 머신러닝과 딥러닝에 관심이 많다. (Document 1 : KimJunho is interested in machine learning and deep learning)
 * 문서2 : 김준호는 전문연구요원채용에 관심이 많다. (Document 2 : KimJunho is interested in recruiting professional researchers)
 ```bash
@@ -24,7 +24,7 @@ KimJunho isterested machine learning deep learning
 KimJunho recruiting professional researchers
 ```
 
-## 주요 변수 설명
+## Main Variable Description
 * See Line 894 (public static class Builder)
 ```bash
 1. cbow = false
