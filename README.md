@@ -1,6 +1,6 @@
 # Word2Vec In Java
 * https://code.google.com/archive/p/word2vec/source/default/source
-* 위 코드를 Java로 바꾸었습니다. (Changed the above code to Java)
+* 위 코드를 Java로 바꾸었습니다. (Changed Word2vec c code to Java)
 
 ## How to Use
 * 소스코드가 들어있는 폴더에 "Input.txt"를 넣습니다. (Put "Input.txt" in the folder containing the source code)
