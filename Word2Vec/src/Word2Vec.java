@@ -27,25 +27,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-// 인수 -train a -output b
 
 @SuppressWarnings("deprecation")
 public class Word2Vec {
 	private static final Logger log = LoggerFactory.getLogger(Word2Vec.class);
-	private static final String input = "input_text.txt";
-	/*
-	 * 인풋문서는 전처리가 모두 완료되어야 합니다. (한줄에는 띄어쓰기로 구분되어 단어들로 구성)
-	 * 한줄당 문서 1개를 의미
-	 * Example ( Doc1 : 아이폰은 애플에서 만들었다. // Doc2 : 갤럭시는 삼성에서 만들었다.)
-	 * Input Text
-	 		아이폰 애플 만듬 or 아이폰 애플
-	 		갤럭시 삼성 만듬 or 갤럭시 삼성
-	 * 
-	 */
-	
-	
-	private static final String output = "Word_vec.txt";
-	
+	private static final String input = "Input.txt";
+	private static final String output = "Output.txt";
+
 	class VocabWord implements Comparable<VocabWord> {
 		VocabWord(String word) {
 			this.word = word;
@@ -966,7 +954,7 @@ public class Word2Vec {
 	}
 	
 	@SuppressWarnings({ "static-access" })
-	public static void Start(String[] args) {
+	public static void main(String[] args) {
 		Builder b = new Builder();
 		Options options = new Options();
 		options.addOption(OptionBuilder.hasArg().withArgName("file")
@@ -1044,7 +1032,7 @@ public class Word2Vec {
 				b.startingAlpha = Float.parseFloat(cl.getOptionValue("startingAlpha"));
 			}
 			if (cl.hasOption("output")) {
-			//	b.outputFile = new File(cl.getOptionValue("output"));
+				//b.outputFile = new File(cl.getOptionValue("output"));
 				b.outputFile = new File(output);
 			}
 			if (cl.hasOption("window")) {
@@ -1075,6 +1063,7 @@ public class Word2Vec {
 		}
 		Word2Vec word2vec = new Word2Vec(b);
 		word2vec.trainModel();
+		System.out.println("train finish");
 		System.exit(0);
 	}
 }
