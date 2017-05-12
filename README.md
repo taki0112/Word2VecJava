@@ -12,7 +12,11 @@ All documents must be preprocessed
 
 * Preprocessing: documents should be separated by words using morphemes
 * In Eclipse, you mush give arguments 
+
+
 ![Arguments](./assets/arguments.JPG)
+
+
 * a = input.txt, b = output.txt...  That is, the name of the input output file.
 * but, in Code I hava set it (Line 34, 35)
 
