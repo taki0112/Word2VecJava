@@ -12,11 +12,13 @@ All documents must be preprocessed
 
 * Preprocessing: documents should be separated by words using morphemes
 * In Eclipse, you mush give arguments 
-![Arguments](./assets/argumnets.JPG)
+![Arguments](./assets/arguments.JPG)
+* a = input.txt, b = output.txt...  That is, the name of the input output file.
+* but, in Code I hava set it (Line 34, 35)
 
 ## Contents of "Input.txt" after preprocessing
 * Document 1 : KimJunho is interested in machine learning and deep learning
-* Document 2 : KimJunho is interested in recruiting professional researchers
+* Document 2 : KimJunho is interested in recruiting professional researches
 ```bash
 KimJunho isterested machine learning deep learning
 KimJunho recruiting professional researchers
