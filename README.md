@@ -11,7 +11,7 @@ All documents must be preprocessed
 ```
 
 * Preprocessing: documents should be separated by words using morphemes
-* In Eclipse, you mush give arguments 
+* In Eclipse, you mush give arguments (Run - Run Configurations...)
 
 
 ![Arguments](./assets/arguments.JPG)
