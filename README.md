@@ -30,7 +30,7 @@ KimJunho recruiting professional researchers
 
 ## Main Variable Description
 * See Line 894 (public static class Builder)
-```bash
+```java
 1. cbow = false
    Which of the cbow and skip-gram models to learn ?
    false : use skip gram
